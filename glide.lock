@@ -1,0 +1,88 @@
+hash: 4c234be3c3842b63e3ad1ca47479e0e7f80beb87c6aedb20e536b2e047729c76
+updated: 2018-12-07T18:10:04.396166356-08:00
+imports:
+- name: github.com/gogo/protobuf
+  version: 636bf0302bc95575d69441b25a2603156ffdddf1
+  subpackages:
+  - proto
+- name: github.com/golang/protobuf
+  version: 1d3f30b51784bec5aad268e59fd3c2fc1c2fe73f
+  subpackages:
+  - proto
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
+- name: golang.org/x/net
+  version: 610586996380ceef02dd726cc09df7e00a3f8e56
+  subpackages:
+  - context
+  - http/httpguts
+  - http2
+  - http2/h2c
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - trace
+- name: golang.org/x/sys
+  version: 70b957f3b65e069b4930ea94e2721eefa0f8f695
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 6f44c5a2ea40ee3593d98cdcc905cc1fdaa660e2
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/genproto
+  version: bd91e49a0898e27abb88c339b432fa53d7497ac0
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: df014850f6dee74ba2fc94874043a9f3f75fbfd8
+  subpackages:
+  - balancer
+  - balancer/base
+  - balancer/roundrobin
+  - binarylog/grpc_binarylog_v1
+  - codes
+  - connectivity
+  - credentials
+  - credentials/internal
+  - encoding
+  - encoding/proto
+  - grpclog
+  - internal
+  - internal/backoff
+  - internal/binarylog
+  - internal/channelz
+  - internal/envconfig
+  - internal/grpcrand
+  - internal/grpcsync
+  - internal/syscall
+  - internal/transport
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 346938d642f2ec3594ed81d874461961cd0faa76
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: f35b8ab0b5a2cef36673838d662e249dd9c94686
+  subpackages:
+  - assert
+  - require
