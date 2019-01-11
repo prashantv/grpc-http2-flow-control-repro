@@ -1,12 +1,12 @@
 hash: 4c234be3c3842b63e3ad1ca47479e0e7f80beb87c6aedb20e536b2e047729c76
-updated: 2018-12-07T18:10:04.396166356-08:00
+updated: 2019-01-11T13:06:46.410946074-08:00
 imports:
 - name: github.com/gogo/protobuf
-  version: 636bf0302bc95575d69441b25a2603156ffdddf1
+  version: 4cbf7e384e768b4e01799441fdf2a706a5635ae7
   subpackages:
   - proto
 - name: github.com/golang/protobuf
-  version: 1d3f30b51784bec5aad268e59fd3c2fc1c2fe73f
+  version: 347cf4a86c1cb8d262994d8ef5924d4576c5b331
   subpackages:
   - proto
   - ptypes
@@ -14,7 +14,7 @@ imports:
   - ptypes/duration
   - ptypes/timestamp
 - name: golang.org/x/net
-  version: 610586996380ceef02dd726cc09df7e00a3f8e56
+  version: 915654e7eabcea33ae277abbecf52f0d8b7a9fdc
   subpackages:
   - context
   - http/httpguts
@@ -25,18 +25,18 @@ imports:
   - internal/timeseries
   - trace
 - name: golang.org/x/sys
-  version: 70b957f3b65e069b4930ea94e2721eefa0f8f695
+  version: 48ac38b7c8cbedd50b1613c0fccacfc7d88dfcdf
   subpackages:
   - unix
 - name: golang.org/x/text
-  version: 6f44c5a2ea40ee3593d98cdcc905cc1fdaa660e2
+  version: e6919f6577db79269a6443b9dc46d18f2238fb5d
   subpackages:
   - secure/bidirule
   - transform
   - unicode/bidi
   - unicode/norm
 - name: google.golang.org/genproto
-  version: bd91e49a0898e27abb88c339b432fa53d7497ac0
+  version: db91494dd46c1fdcbbde05e5ff5eb56df8f7d79a
   subpackages:
   - googleapis/rpc/status
 - name: google.golang.org/grpc
@@ -82,7 +82,7 @@ testImports:
   subpackages:
   - difflib
 - name: github.com/stretchr/testify
-  version: f35b8ab0b5a2cef36673838d662e249dd9c94686
+  version: ffdc059bfe9ce6a4e144ba849dbedead332c6053
   subpackages:
   - assert
   - require
